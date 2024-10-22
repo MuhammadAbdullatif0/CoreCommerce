@@ -1,0 +1,6 @@
+@CoreCommerce.API_HostAddress = http://localhost:5195
+
+GET {{CoreCommerce.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

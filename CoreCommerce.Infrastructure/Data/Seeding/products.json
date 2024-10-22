@@ -1,0 +1,68 @@
+[
+  {
+    "Name": "Sofa Set",
+    "Price": 750.00,
+    "ImgUrl": "/images/furniture-1.jpg",
+    "ProductCategoryId": 1
+  },
+  {
+    "Name": "Coffee Table",
+    "Price": 120.00,
+    "ImgUrl": "/images/furniture-2.jpg",
+    "ProductCategoryId": 1
+  },
+  {
+    "Name": "Queen Bed",
+    "Price": 650.00,
+    "ImgUrl": "/images/furniture-3.jpg",
+    "ProductCategoryId": 2
+  },
+  {
+    "Name": "Wardrobe",
+    "Price": 480.00,
+    "ImgUrl": "/images/furniture-4.jpg",
+    "ProductCategoryId": 2
+  },
+  {
+    "Name": "Office Chair",
+    "Price": 95.00,
+    "ImgUrl": "/images/furniture-5.jpg",
+    "ProductCategoryId": 3
+  },
+  {
+    "Name": "Work Desk",
+    "Price": 220.00,
+    "ImgUrl": "/images/furniture-6.jpg",
+    "ProductCategoryId": 3
+  },
+  {
+    "Name": "Patio Set",
+    "Price": 430.00,
+    "ImgUrl": "/images/furniture-7.jpg",
+    "ProductCategoryId": 4
+  },
+  {
+    "Name": "Outdoor Bench",
+    "Price": 175.00,
+    "ImgUrl": "/images/furniture-8.jpg",
+    "ProductCategoryId": 4
+  },
+  {
+    "Name": "Bookshelf",
+    "Price": 210.00,
+    "ImgUrl": "/images/furniture-9.jpg",
+    "ProductCategoryId": 3
+  },
+  {
+    "Name": "Recliner Chair",
+    "Price": 525.00,
+    "ImgUrl": "/images/furniture-10.jpg",
+    "ProductCategoryId": 1
+  },
+  {
+    "Name": "Nightstand",
+    "Price": 85.00,
+    "ImgUrl": "/images/furniture-11.jpg",
+    "ProductCategoryId": 2
+  }
+]
