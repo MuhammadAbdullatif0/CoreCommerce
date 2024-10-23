@@ -42,7 +42,7 @@ namespace CoreCommerce.Infrastructure.data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("CoreCommerce.Core.Entities.Product", b =>
@@ -78,7 +78,7 @@ namespace CoreCommerce.Infrastructure.data.Migrations
 
                     b.HasIndex("ProductCategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("CoreCommerce.Core.Entities.Product", b =>

@@ -10,6 +10,7 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
     {
         builder.Property(p => p.Id).IsRequired();
         builder.Property(p => p.Name).IsRequired().HasMaxLength(100);
+        builder.Property(x => x.Price).HasColumnType("decimal(18,2)");
         builder.Property(p => p.ImgUrl).IsRequired();
         builder.HasOne(p => p.ProductCategory).WithMany()
             .HasForeignKey(p => p.ProductCategoryId);
