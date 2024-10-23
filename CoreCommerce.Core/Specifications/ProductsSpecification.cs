@@ -15,7 +15,6 @@ public class ProductsSpecification : BaseSpecification<Product>
     {
         AddInclude(x => x.ProductCategory);
         AddOrderBy(x => x.Name);
-        ApplyPaging(productParams.PageSize * (productParams.PageIndex - 1),
-            productParams.PageSize);
+        ApplyPaging(productParams.PageSize * (productParams.PageIndex - 1),productParams.PageSize);
     }
 }
